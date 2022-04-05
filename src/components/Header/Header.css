@@ -1,0 +1,19 @@
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+.header-container {
+    display: flex;
+
+}
