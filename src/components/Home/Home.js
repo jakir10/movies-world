@@ -18,6 +18,9 @@ const Home = () => {
             </div>
             <div>
                 <h2>Customer Reviews (3)</h2>
+
+
+                <button className='btn-review'>See All Reviews</button>
             </div>
         </div>
     );

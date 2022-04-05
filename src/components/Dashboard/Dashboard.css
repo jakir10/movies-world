@@ -1,0 +1,20 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+}
+
+.line-chart {
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.bar-chart {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.chart-container h2 {
+    color: orangered;
+}

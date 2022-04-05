@@ -17,3 +17,15 @@
 .movie-heanding {
     color: orangered;
 }
+
+.btn-review {
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 25px;
+}
+
+.btn-review:hover {
+    background-color: red;
+}
