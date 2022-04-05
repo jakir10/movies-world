@@ -1,0 +1,19 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.home-container img {
+    width: 300px;
+    height: 400px;
+}
+
+.heading-container {
+    width: 900px;
+    margin-right: 30px;
+}
+
+.movie-heanding {
+    color: orangered;
+}
