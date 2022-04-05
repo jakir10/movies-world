@@ -1,0 +1,13 @@
+.bolgs {
+    background-color: skyblue;
+    width: 700px;
+    height: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.bolgs h2 {
+    text-decoration: underline;
+}

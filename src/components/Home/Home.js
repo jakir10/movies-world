@@ -1,7 +1,12 @@
 import React from 'react';
+import useReviews from '../../hooks/useReviews';
+import Reviews from '../Reviews/Reviews';
 import './Home.css'
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews()
+
+
     return (
         <div>
             <div className='home-container'>
@@ -18,6 +23,8 @@ const Home = () => {
             </div>
             <div>
                 <h2>Customer Reviews (3)</h2>
+                <div className='review-container'>
+                </div>
 
 
                 <button className='btn-review'>See All Reviews</button>

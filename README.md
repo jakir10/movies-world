@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Movies World
+## Live Site
+[Movies World](https://movies-world-jakir.netlify.app/)
+
+### bullet points
+*Home page]
+*Reviews(from user)
+*Dahsboard
+*Blogs page
+*About page(with 404 not found)
+
 ## Available Scripts
 
 In the project directory, you can run:
