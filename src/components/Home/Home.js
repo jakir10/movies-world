@@ -26,7 +26,6 @@ const Home = () => {
                 <div className='review-container'>
                 </div>
 
-
                 <button className='btn-review'>See All Reviews</button>
             </div>
         </div>
