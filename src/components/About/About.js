@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            <h2>404 not found</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDGnNqI6VAKXBY_JJsSBnsANnHZ3pR_Y1S8g&usqp=CAU" alt="" />
+
         </div>
     );
 };

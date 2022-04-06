@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import useReviews from '../../hooks/useReviews';
+import User from '../User/User';
+import './Reviews.css';
 
-const Reviews = (props) => {
-    const { name, review, rating } = props.reviews;
+const Reviews = () => {
+    const [reviews, setReviews] = useReviews();
+
+
+
     return (
         <div>
-            <h2>This is reviews</h2>
-            <h3>Name :{name}</h3>
-            <h3>Review:{review}</h3>
-            <h3>Rating:{rating}</h3>
+            <h2>All Reviews</h2>
+            <div className="user-container">
+                {
+                    reviews.map(user => <User
+                        key={user._id}
+                        user={user}
+                    ></User>)
+                }
+            </div>
         </div>
     );
 };

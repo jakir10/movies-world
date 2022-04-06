@@ -7,9 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [Movies World](https://movies-world-jakir.netlify.app/)
 
 ### bullet points
-*Home page]
+*Home page
 *Reviews(from user)
-*Dahsboard
+*Dashboard
 *Blogs page
 *About page(with 404 not found)
 
